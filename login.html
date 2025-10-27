@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SubFeed Publisher Platform</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .feature-icon { font-size: 2rem; color: #0d6efd; }
+    .testimonial-card { border: none; border-radius: .5rem; box-shadow: 0 .125rem .25rem rgba(0,0,0,.075); }
+    .metric-number { font-size: 2.5rem; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">SubFeed</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+          <li class="nav-item"><a class="nav-link" href="#benefits">Benefits</a></li>
+        </ul>
+        <a class="btn btn-primary" href="#login">Login</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="hero" class="bg-primary text-white text-center py-5">
+    <div class="container">
+      <h1 class="display-4 fw-bold">Next-Level UTM & Popup Management</h1>
+      <p class="lead mb-4">Seamlessly create trackable links, design rich pop-ups, and monitor performance.</p>
+      <a href="#login" class="btn btn-light btn-lg">Get Started</a>
+    </div>
+  </section>
+
+  <!-- Earnings Impact -->
+  <section id="impact" class="bg-light py-5">
+    <div class="container text-center">
+      <h4 class="mb-4">Earnings Growth with SubFeed</h4>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="card p-4 testimonial-card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Before SubFeed</h5>
+              <p class="card-text"><strong>AdSense:</strong> $20/day</p>
+              <p class="card-text"><strong>AdX:</strong> $15/day</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card p-4 bg-primary text-white testimonial-card h-100">
+            <div class="card-body">
+              <h5 class="card-title">After SubFeed</h5>
+              <p class="card-text"><strong>AdSense:</strong> $60/day</p>
+              <p class="card-text"><strong>AdX:</strong> $45/day</p>
+              <span class="badge bg-warning text-dark mt-2">200% Growth</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="container py-5">
+    <h2 class="mb-4 text-center">Script Features</h2>
+    <div class="row g-4">
+      <div class="col-md-6 d-flex">
+        <div class="feature-icon me-3">🔧</div>
+        <div>
+          <h5>Dynamic Content</h5>
+          <p>Change title, image, and destination URL without breaking shared links.</p>
+        </div>
+      </div>
+      <div class="col-md-6 d-flex">
+        <div class="feature-icon me-3">💬</div>
+        <div>
+          <h5>Targeted Pop-Ups</h5>
+          <p>Serve custom HTML pop-ups on specific UTM codes only.</p>
+        </div>
+      </div>
+      <div class="col-md-6 d-flex">
+        <div class="feature-icon me-3">🔄</div>
+        <div>
+          <h5>Non-Destructive Edits</h5>
+          <p>Update URL, title, or description without losing stats.</p>
+        </div>
+      </div>
+      <div class="col-md-6 d-flex">
+        <div class="feature-icon me-3">📊</div>
+        <div>
+          <h5>Real-Time Tracking</h5>
+          <p>Monitor visitor counts and logs in real-time.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefits -->
+  <section id="benefits" class="bg-white py-5">
+    <div class="container">
+      <h2 class="mb-4 text-center">Admin Benefits</h2>
+      <div class="row g-4">
+        <div class="col-md-6 d-flex">
+          <div class="feature-icon me-3">💰</div>
+          <div>
+            <h5>High-RPM Threads</h5>
+            <p>Load high-paying ad threads while delivering correct articles in background.</p>
+          </div>
+        </div>
+        <div class="col-md-6 d-flex">
+          <div class="feature-icon me-3">🤖</div>
+          <div>
+            <h5>Bot Protection</h5>
+            <p>Pop-ups only appear on UTM links—bots won’t trigger your ads.</p>
+          </div>
+        </div>
+        <div class="col-md-6 d-flex">
+          <div class="feature-icon me-3">🚀</div>
+          <div>
+            <h5>First-Impression Load</h5>
+            <p>Pop-ups fire on first page load only; refreshes don’t re-trigger.</p>
+          </div>
+        </div>
+        <div class="col-md-6 d-flex">
+          <div class="feature-icon me-3">⚙️</div>
+          <div>
+            <h5>Full Control</h5>
+            <p>One dashboard to manage all links, pop-ups, and analytics.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Login Form -->
+  <section id="login" class="py-5">
+    <div class="container d-flex justify-content-center">
+      <div class="card shadow-sm p-4" style="max-width:400px; width:100%;">
+        <h3 class="text-center mb-3">Publisher Login</h3>
+        <form method="POST">
+          <div class="mb-3">
+            <input type="password" name="password" class="form-control" placeholder="Enter password" required>
+          </div>
+          <button class="btn btn-primary w-100">Unlock Dashboard</button>
+          {% if error %}
+            <div class="alert alert-danger mt-3">{{ error }}</div>
+          {% endif %}
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-3 bg-white">
+    <small>© SubFeed. All rights reserved.</small>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
