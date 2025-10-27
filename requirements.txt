@@ -1,0 +1,3 @@
+Flask
+flask-cors
+PyGithub>=1.1
